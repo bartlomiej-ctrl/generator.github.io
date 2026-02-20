@@ -235,7 +235,8 @@
         "6. FAQ"
       ];
 
-      const prompt = `Na podstawie tytułu oferty: "${title}"${extraSection}\n\nstwórz opis w 6 sekcjach:\n\n${sections.join("\n\n")}\n\nUżywaj nagłówków (WIELKIE LITERY), list punktowanych i krótkich akapitów.\nNie dodawaj zachęt do zakupu ani kontaktu.\nStyl oficjalny, prosty i rzeczowy.`;
+      const prompt = `Na podstawie tytułu oferty: "${title}"${extraSection}\n\nstwórz opis w 6 sekcjach:\n\n${sections.join("\n\n")}\n\nUżywaj nagłówków (WIELKIE LITERY), list punktowanych i krótkich akapitów.\nNie dodawaj zachęt do zakupu ani kontaktu.\nStyl oficjalny, przed Zastosowanie daj zawsze✅, Dane techniczne i wymiary⚙️, Zalety produktu✅, Dodatkowe informacje za nagłówkiem❗️, FAQ za daj❓,.`;
+prosty i rzeczowy.`;
 
       const output = document.getElementById("promptOutput");
       output.textContent = "";
